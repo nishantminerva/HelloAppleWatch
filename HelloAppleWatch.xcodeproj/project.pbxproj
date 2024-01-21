@@ -12,6 +12,7 @@
 		190E1C7B2B5D158400B8D75D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E1C7A2B5D158400B8D75D /* ContentView.swift */; };
 		190E1C7D2B5D158400B8D75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E1C7C2B5D158400B8D75D /* Assets.xcassets */; };
 		190E1C802B5D158400B8D75D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190E1C7F2B5D158400B8D75D /* Preview Assets.xcassets */; };
+		190E1C8C2B5D19DA00B8D75D /* EmojiSentence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190E1C8B2B5D19DA00B8D75D /* EmojiSentence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		190E1C7A2B5D158400B8D75D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		190E1C7C2B5D158400B8D75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		190E1C7F2B5D158400B8D75D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		190E1C8B2B5D19DA00B8D75D /* EmojiSentence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiSentence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				190E1C782B5D158400B8D75D /* HelloAppleWatchApp.swift */,
-				190E1C7A2B5D158400B8D75D /* ContentView.swift */,
+				190E1C8A2B5D19C700B8D75D /* HelloAppleWatchApp Extension */,
 				190E1C7C2B5D158400B8D75D /* Assets.xcassets */,
 				190E1C7E2B5D158400B8D75D /* Preview Content */,
 			);
@@ -92,6 +94,15 @@
 				190E1C7F2B5D158400B8D75D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		190E1C8A2B5D19C700B8D75D /* HelloAppleWatchApp Extension */ = {
+			isa = PBXGroup;
+			children = (
+				190E1C7A2B5D158400B8D75D /* ContentView.swift */,
+				190E1C8B2B5D19DA00B8D75D /* EmojiSentence.swift */,
+			);
+			path = "HelloAppleWatchApp Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +203,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190E1C8C2B5D19DA00B8D75D /* EmojiSentence.swift in Sources */,
 				190E1C7B2B5D158400B8D75D /* ContentView.swift in Sources */,
 				190E1C792B5D158400B8D75D /* HelloAppleWatchApp.swift in Sources */,
 			);
